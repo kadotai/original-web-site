@@ -1,0 +1,27 @@
+header{
+    background-color: plum;
+}
+
+#img-frame{
+    background-color: brown;
+}
+
+#library{
+    background-color: aqua;
+}
+
+#video{
+    background-color: teal;
+}
+
+#summary{
+    background-color: yellow;
+}
+
+#about {
+    background-color: blueviolet;
+}
+
+#end{
+    background-color: orange;
+}
