@@ -9,22 +9,22 @@
 </head>
 <body>
     <header>
-        <a href="#"><img src="./assets/img/ロゴ.jpg" alt=""></a>
+        <a href="#"><img src="./assets/img/ロゴ.jpg" alt="ロゴ" class=".logo"></a>
         <div>
             <ul id="option">
-                <li class="ul_li"><a href="#1">📚books📚</a></li>
-                <li class="ul_li"><a href="#">🎥video🎥</a></li>
-                <li class="ul_li"><a href="#">✅まとめ✅</a></li>
-                <li class="ul_li"><a href="#">💻参考💻</a></li>
+                <li class="ul_li"><a href="#think" class="koumoku">📚Books📚</a></li>
+                <li class="ul_li"><a href="#watch" class="koumoku">🎥Videoes🎥</a></li>
+                <li class="ul_li"><a href="#summary" class="koumoku">✅まとめ✅</a></li>
+                <li class="ul_li"><a href="#learn" class="koumoku">💻おすすめ記事💻</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="section">
+        <section id="section_1">
             <div id="img-frame">
                 <div class="img-01"><img src="./assets/img/book.jpg" alt="" class="img_photo"></div>
-                <div class="img-02"><img src="./assets/img/enjoy.jpg" alt="" class="img_photo"></div>
-                <div class="img-03"><img src="./assets/img/mounten.jpg" alt="" class="img_photo"></div>
+                <div class="img-01"><img src="./assets/img/enjoy.jpg" alt="" class="img_photo"></div>
+                <div class="img-01"><img src="./assets/img/mounten.jpg" alt="" class="img_photo"></div>
                 <div class="img-01"><img src="./assets/img/sit computer.jpg" alt="" class="img_photo"></div>
                 <div class="img-01"><img src="./assets/img/手をつなぐ.jpg" alt="" class="img_photo"></div>
                 <div class="img-01"><img src="./assets/img/sea.jpg" alt="" class="img_photo"></div>
@@ -33,157 +33,88 @@
                 <div class="img-01"><img src="./assets/img/villiage.jpg" alt="" class="img_photo"></div>
             </div>
         </section>
-        <section class="section">
-            <div id="library">
-                <h3><a href="#1">📚books📚</a></h3>
-                <div class="book">
-                    <div>
-                        <img src="./assets/img/100の言葉.png" alt="本1" class="book_img
-                        ">
-                    </div>
-                    <div>
-                        <a href="">100の言葉</a>
-                        <ul>
-                            <li>著作/島田 紳助</li>
-                            <li><あらすじ></li>
-                            <p>島田紳助さんの
-                            <br>生き方や考え方
-                            <br>をまとめた本。</p>
-                        </ul>
-                    </div>
-                </div>
-                <div class="book">
-                    <div>
-                        <img src="./assets/img/聞き方.png" alt="本2" class="book_img
-                        ">
-                    </div>
-                    <div>
-                        <a href="">人は聞き方が9割</a>
-                        <ul>
-                            <li>著作/永松 茂久</li>
-                            <li><あらすじ></li>
-                            <p>人はみんな、話したい生
-                            <br>き物。だから、聞き役
-                            <br>に回ることでコミュニ
-                            <br>ケーションの達人にな
-                            <br>れます！</p>
-                        </ul>
-                    </div>
-                </div>
-                <div class="book">
-                    <div>
-                        
-                        <img src="./assets/img/エッセンシャル思考.png" alt="本3" class="book_img
-                        ">
-                    </div>
-                    <div>
-                        <a href="">エッセンシャル思考</a>
-                        <ul>
-                            <li>著作/グレッグ マキューン</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="book">
-                    <div>
-                        <img src="./assets/img/伝え方が９割.png" alt="本４" class="book_img
-                        ">
-                    </div>
-                    <div>
-                        <a href="">伝え方が９割</a>
-                        <ul>
-                            <li>著作/佐々木 圭一</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
+        <section class="section_2">
+            <h2 id="think">📚Books📚</h2>
+            <div class="j" id="box1">
+                <img src="./assets/img/100の言葉.png" alt="">
+                <h3><a href="https://www.amazon.co.jp/%E5%B3%B6%E7%94%B0%E7%B4%B3%E5%8A%A9100%E3%81%AE%E8%A8%80%E8%91%89-%EF%BC%88%E3%83%A8%E3%82%B7%E3%83%A2%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%89-%E5%B3%B6%E7%94%B0-%E7%B4%B3%E5%8A%A9/dp/4847019768">100の言葉</a></h3>
+                <p>著作/島田 紳助</p>
+                <p><あらすじ></p>
+                <p>島田紳助の考える人生の大切な教訓をまとめた本。</p>
+            </div>
+            <div class="j" id="box2">
+                <img src="./assets/img/聞き方.png" alt="">
+                <h3><a href="https://www.amazon.co.jp/%E4%BA%BA%E3%81%AF%E8%81%9E%E3%81%8D%E6%96%B9%E3%81%8C9%E5%89%B2-%E6%B0%B8%E6%9D%BE-%E8%8C%82%E4%B9%85/dp/479911008X">人は聞き方が9割</a></h3>
+                <p>著作/松永 茂久</p>
+                <p><あらすじ></p>
+                <p>コミュニケーションのアプローチを根底から変え、話すだけでなく聞くことの重要性に焦点を当てた本。</p>
+            </div>
+            <div class="j" id="box3">
+                <img src="./assets/img/伝え方が９割.png" alt="">
+                <h3><a href="https://www.amazon.co.jp/%E4%BC%9D%E3%81%88%E6%96%B9%E3%81%8C9%E5%89%B2-%E4%BD%90%E3%80%85%E6%9C%A8-%E5%9C%AD%E4%B8%80/dp/4478017212">伝え方が９割</a></h3>
+                <p>著作/佐々木 圭一</p>
+                <p><あらすじ></p>
+                <p>仕事だけでなく、プライベートでも使えるコミュニケーションのノウハウが詰まった本。</p>
+            </div>
+        </section>
+        <section class="section_2">
+            <h2 id="watch">🎥Videoes🎥</h2>
+            <div class="j" id="box1">
+                <img src="./assets/img/中田敦彦.png" alt="">
+                <h3><a href="https://www.youtube.com/@NKTofficial">中田敦彦のyoutube大学</a></h3>
+                <p>約535万人(2024年10月時点)</p>
+                <p><あらすじ></p>
+                <p>政治・経済・哲学・心理・人間関係・ビジネス・健康・投資など幅広く学習できるチャンネル。</p>
+            </div>
+            <div class="j" id="box2">
+                <img src="./assets/img/宋世羅の羅針盤ちゃんねる.png" alt="">
+                <h3><a href="https://www.youtube.com/@sonsera_ch">宋世羅の羅針盤ちゃんねる</a></h3>
+                <p>約43.8万人(2024年10月時点)</p>
+                <p><あらすじ></p>
+                <p>仕事や人間関係などで失敗した時や、失敗しないようにする方法など自身の体験談をもとにお話しするチャンネル。</p>
+            </div>
+            <div class="j" id="box3">
+                <img src="./assets/img/フェルミン漫画大学.png" alt="">
+                <h3><a href="https://www.youtube.com/@ferumi">フェルミン漫画大学</a></h3>
+                <p>約120万人(2024年10月時点)</p>
+                <p><あらすじ></p>
+                <p>仕事や学校など忙しく、本を読む時間がない方におすすめ。この動画を見ることで本読まなくてもすべてが分かるチャンネル。</p>
+            </div>
+        </section>
+        <section class="section_3">
+            <div>
+                <h2 id="summary">✅まとめ✅</h2>
+                <div class="mozi">
+                    <p>今回、おすすめの本とyoutubeを紹介しました。</p>
+                    <p>皆さんが知ってっている本・youtubeチャンネルございましたか？</p>
+                    <p>このサイトからお伝えしたいことは『自分らしく生きていこう』ということです。</p>
+                    <p>明確に「これがしたい」「あれがしたい」という欲がなく、ただ毎日何もせず終わる人生。</p>
+                    <p>物凄くもったいないです！！！！！！</p>
+                    <p>このサイトをきっかけに外に目を向け夢を見つけ自分らしくゆっくり歩んでいきましょう！</p>
+                    <p>大丈夫、君は一人じゃない。</p>
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div id="video">
-                <h3>動画の紹介</h3>
-                <div class="pc">
-                    <div>
-                        <img src="" alt="動画１">
-                    </div>
-                    <div>
-                        <a href="">タイトル</a>
-                        <ul>
-                            <li>チャンネル登録数</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pc">
-                    <div>
-                        <img src="" alt="動画2">
-                    </div>
-                    <div>
-                        <a href="">タイトル</a>
-                        <ul>
-                            <li>チャンネル登録数</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pc">
-                    <div>
-                        <img src="" alt="動画3">
-                    </div>
-                    <div>
-                        <a href="">タイトル</a>
-                        <ul>
-                            <li>チャンネル登録数</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pc">
-                    <div>
-                        <img src="" alt="動画4">
-                    </div>
-                    <div>
-                        <a href="">タイトル</a>
-                        <ul>
-                            <li>チャンネル登録数</li>
-                            <li><p>あらすじ</p></li>
-                        </ul>
-                    </div>
+        <section class="section_3">
+            <div>
+                <h2 id="learn">💻おすすめ記事💻</h2>
+                <div class="mozi">
+                    <p class="kizi"><a href="https://mba.globis.ac.jp/careernote/1327.html">1.自己肯定感とは？低い人の特徴と高めていく方法</a></p>
+                    <p class="kizi"><a href="https://www.miraishift.co.jp/mezacheer-20230605/">2.人生の充実度が高い人の共通点とは？</a></p>
+                    <p class="kizi"><a href="https://machicon.jp/koigaku/column/354849/">3.人徳とは？ 正しい意味と「人徳がある人」の特徴3つ</a></p>
+                    <p class="kizi"><a href="https://liffel.com/logical-thinking/thinkings/">4.思考法とは｜思考法の種類</a></p>
+                    <p class="kizi"><a href="https://note.com/good_avocet789/n/nbb1c6f610e10">5.【人生を豊かにする方法】自分の価値観を明確にするメリットとは？</a></p>
                 </div>
             </div>
         </section>
+        <section class="section_4">
+            <button id="button"><a href="#">🔝TOP🔝</a></button>
         </section>
-        <section class="section">
-            <div id="summary">
-                <h3>まとめ</h3>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi delectus asperiores quis dolorem voluptates repellat qui, tempore officia molestiae culpa expedita cum. Ad suscipit in totam similique tempora aspernatur eligendi!</p>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div id="about"> 
-                <h3>参考</h3>
-                <div class="pc">
-                    <a href="">サイト１</a>
-                </div>
-                <div class="pc">
-                    <a href="">サイト２</a>
-                </div>
-                <div class="pc">
-                    <a href="">サイト3</a>
-                </div>
-            </div>
     </main>
     <footer>
-        <div id="end">
-            <div id="page_top">
-                <a href="#">
-                    <img src="./assets/img/上矢印.png" alt="ページの先頭へ">
-                </a>
-            </div>
-            <small>&copy;Taichi</small>
-        </div>
+        <small>&copy;2024 Taichi</small>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
