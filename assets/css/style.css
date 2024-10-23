@@ -18,7 +18,12 @@ header{
   justify-content: space-between;
   align-items: center;
   /* text-align: center; */
-  height: 200px;
+  height: 100px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width:768px){
@@ -106,25 +111,64 @@ a{
 
 .section_2{
   width: auto;
-  height: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  height: auto;
 }
 
 @media screen and (max-width:768px) {
   .section_2{
-    height: 1500px;
+    height: auto;
+  }
+  .big_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-.j{
-  width: 270px;
-  margin: 10px;
-  height: 450px;
-  border: 10px double black;
+.life{
+  text-align: center;
+  border-radius: 30px; 
+  background-color: yellow;
+  margin-bottom: 5px;
+}
+
+#think:hover::after {
+  content: "クリック";
+  font-size: 12px; 
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  background-color: #fff; 
+  padding: 2px 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+#watch:hover::after {
+  content: "クリック";
+  font-size: 12px; 
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 2px 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.big_box{
   display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.j{
+  width: 290px;
+  margin: 10px;
+  height: 550px;
+  border: 10px double black;
 }
 
 h3{
@@ -133,8 +177,8 @@ h3{
 }
 
 img{
-  width: 230px;
-  height: 200px;
+  width: 250px;
+  object-fit: cover;
   margin-left: 10px;
 }
 
@@ -161,18 +205,40 @@ p{
 
 #summary{
   text-align: center;
-  border-radius: 30px; 
+  border-radius: 30px;
   background-color: yellow;
   margin-bottom: 5px;
 }
 
+#summary:hover::after {
+  content: "クリック";
+  font-size: 12px; 
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 2px 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
 
 #learn{
   text-align: center;
   border-radius: 30px; 
   background-color: yellow;
   margin-bottom: 5px;
+}
 
+#learn:hover::after {
+  content: "クリック";
+  font-size: 12px; 
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%); 
+  background-color: #fff; 
+  padding: 2px 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
 }
 
 .mozi{
