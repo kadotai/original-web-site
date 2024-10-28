@@ -57,19 +57,19 @@ a{
     align-items: center;
     height: 250px;
   }
-    .logo {
-      width: 100%;
-      height: 170px;
-    }
-    #option {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 100%;
-    }
-    .koumoku{
-      font-size: 10px;
-    }
+  .logo {
+    width: 100%;
+    height: 170px;
+  }
+  #option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .select{
+    font-size: 10px;
+  }
 }
 
 .ul_li{
@@ -164,7 +164,7 @@ a{
   align-items: center;
 }
 
-.j{
+.small_box{
   width: 290px;
   margin: 10px;
   height: 550px;
@@ -241,7 +241,7 @@ p{
   border-radius: 3px;
 }
 
-.mozi{
+.final_contents{
   display: none;
 }
 

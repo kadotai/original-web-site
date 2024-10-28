@@ -8,7 +8,7 @@ for(let i = 0; i < first.length; i++){
     });
 };
 
-const second = document.getElementsByClassName('j');
+const second = document.getElementsByClassName('small_box');
 for(let i = 0; i < second.length; i++){
     second[i].addEventListener('mouseover', function() {
         this.style.background= '#ececec';
@@ -18,7 +18,7 @@ for(let i = 0; i < second.length; i++){
     });
 };
 
-const third = document.getElementsByClassName('kizi');
+const third = document.getElementsByClassName('article');
 for(let i = 0; i < third.length; i++){
     third[i].addEventListener('mouseover', function() {
         this.style.background= '#ececec';
@@ -39,14 +39,14 @@ fourth.addEventListener('mouseout', function() {
 // Display Function
 $(function(){
     $('#think').on('click',function(){
-        const boxContainer = document.getElementById("pc1");
+        const boxContainer = document.getElementById("first_box");
         console.log(boxContainer);
         $(this).nextAll().slideToggle();
         boxContainer.style.display = "flex";
     });
 
     $('#watch').on('click',function(){
-        const boxContainer_2 =document.getElementById("pc2");
+        const boxContainer_2 =document.getElementById("second_box");
         console.log(boxContainer_2);
         $(this).nextAll().slideToggle();
         boxContainer_2.style.display = "flex";
